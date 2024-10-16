@@ -1,0 +1,62 @@
+/* Header */
+.homepageHeader {
+    display: flex;
+    /* Use flexbox for layout */
+    flex-wrap: wrap;
+    /* Allow items to wrap to the next line */
+    width: 100%;
+    /* Full width */
+    height: auto;
+    /* Allow height to adjust based on content */
+    padding: 15px;
+    /* Add some padding */
+}
+
+.logoContainer {
+    flex: 0 0 100px;
+    /* Fixed width */
+    margin-right: 15px;
+    /* Space between items */
+    cursor: pointer;
+}
+
+.logoContainer img {
+    width: 100%;
+}
+
+.titleHeader {
+    flex: 1;
+    /* Allow to grow */
+    display: flex;
+    /* Align content within */
+    align-items: center;
+    /* Center vertically */
+    cursor: pointer;
+}
+
+.titleHeader p {
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--title-txt);
+}
+
+/* header sign up & login button */
+.homeSignupLoginSquare {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding: 15px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.homeSignupLoginSquare>a {
+    width: 8vw;
+    height: 2vh;
+}
+
+.logout-button {
+    margin-left: auto;
+    margin-right: 50px;
+}

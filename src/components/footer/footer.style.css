@@ -1,0 +1,22 @@
+footer {
+    display: flex; /* Use Flexbox for layout */
+	flex-wrap: wrap; /* Allows items to wrap and not overflow */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    position: fixed;
+    bottom: 0;
+    height: 3vh; /* Increase height if needed */
+    width: 100%; /* Use full width */
+    padding: 10px 15px; /* Add padding to left and right */
+    background-color: var(--title-txt);
+    color: white;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    overflow: hidden; /* Prevent overflow */
+}
+
+#copyright, #support {
+    /* Ensure text is responsive and not clipped */
+    font-size: 1rem; /* Base font size */
+    white-space: nowrap; /* Prevent text from wrapping */
+	margin-right: 30px;
+}

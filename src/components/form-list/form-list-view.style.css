@@ -1,0 +1,15 @@
+.form-box-container {
+	margin: 30px;
+	margin-bottom: 100px;
+}
+
+.form-box {
+	border: 1px solid #ccc;
+	padding: 16px;
+	border-radius: 8px;
+	margin: 5px 0;
+}
+
+.form-box:hover {
+	background-color: #f9f9f9;
+}

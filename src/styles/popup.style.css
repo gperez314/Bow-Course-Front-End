@@ -1,0 +1,78 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-box-container {
+  background-color: var(--bg-cream);
+  padding: 0px;
+  border-radius: 10px;
+  height: auto;
+  width: auto;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.modal-popup-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid;
+  width: 500px;
+}
+
+.modal-popup-group {
+  padding: 10px;
+}
+
+.modal-popup-title {
+  padding: 15px;
+  background-color: var(--title-txt);
+  color: black;
+  margin-bottom: 10px;
+}
+
+.popup-button {
+  width: 120px;
+  margin: 2vh 10px;
+}
+
+.modal-popup-box input,
+select, textarea {
+  margin: 5px 15px;
+  padding: 5px;
+}
+
+.popup-form-group {
+  display: flex;
+  align-items: center;
+}
+
+.popup-form-group label {
+  margin: 5px 0;
+  width: 150px;
+  text-align: right;
+}
+
+.popup-form-group input,
+.popup-form-group select,
+.popup-form-group textarea {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.desc-group {
+  display: flex;
+  align-items: flex-start;
+}

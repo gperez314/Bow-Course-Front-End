@@ -1,0 +1,16 @@
+.course-box-container {
+  margin: 30px;
+  margin-bottom: 100px;
+}
+
+.course-no {
+  color: var(--title-txt);
+}
+
+.course-button-container {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+  gap: 10px; /* Space between buttons */
+  margin-left: 30px;
+}
+

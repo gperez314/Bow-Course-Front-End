@@ -1,0 +1,35 @@
+.front-page-containter {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.front-page-header {
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: var(--title-txt);
+}
+
+.front-page-description {
+    font-size: 24px;
+    max-width: 80%;
+    margin: 30px auto;
+    text-align: justify;
+}
+
+.view-programs-link {
+    text-align: center;
+    border-bottom: 3px solid var(--title-txt);
+    color: var(--title-txt);
+    font-size: 32px;
+    text-decoration: none;
+    transition: color 0.3s;
+    cursor: pointer;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.view-programs-link:hover {
+    font-size: 34px;
+}
+

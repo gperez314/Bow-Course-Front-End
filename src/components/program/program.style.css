@@ -1,0 +1,4 @@
+.program-name {
+    color: var(--title-txt);
+    border-bottom: 1px solid var(--title-txt);
+}

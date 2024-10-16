@@ -1,0 +1,54 @@
+.student-coursebox-container {
+	margin: 30px;
+	margin-bottom: 100px;
+}
+
+.course-box {
+	border: 1px solid #ccc;
+	padding: 16px;
+	border-radius: 8px;
+	margin: 5px 0;
+}
+
+.course-box:hover {
+	background-color: #f9f9f9;
+}
+
+.student-course-options-box {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	height: auto;
+	flex-wrap: wrap;
+}
+
+.course-term-filter {
+	margin-left: 30px;
+	margin-right: 0;
+}
+
+.course-instruction {
+	margin-left: 30px;
+	margin-bottom: 10px;
+	padding: 0px;
+	text-align: left;
+	border-bottom: none;
+}
+
+.course-instruction em {
+	border-bottom: none;
+}
+
+.enroll-instruction {
+
+	margin-bottom: 30px;
+	padding: 0px;
+	border-bottom: none;
+	text-align: left;
+}
+
+.enroll-instruction em {
+	border-bottom: none;
+}
+
+

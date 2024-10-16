@@ -1,0 +1,61 @@
+.login-div {
+    margin-bottom: 100px;
+}
+
+.login-box-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid;
+    width: 400px;
+    padding: 50px 0;
+}
+
+.login-button {
+    width: 200px;
+    margin: 2vh auto;
+}
+
+.login-box input, select {
+    margin: 5px 15px;
+    padding: 5px;
+}
+
+.have-account-bar {
+    border: 1px solid;
+    width: 400px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.have-account-bar button {
+    border-radius: 13px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.login-form-group{
+    display: flex;               
+    align-items: center;       
+  }
+  
+  .login-form-group label {
+    width: 100px;              
+    text-align: right;          
+  }
+  
+  .login-form-group input,
+  .login-form-group select {
+    flex: 1;                    
+    border: 1px solid #ccc;    
+    border-radius: 4px;     
+  }

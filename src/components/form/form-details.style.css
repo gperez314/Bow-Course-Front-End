@@ -1,0 +1,23 @@
+.form-details-header {
+    font-weight: bold;
+    text-align: left;
+}
+
+.form-details-desc {
+    margin-top: 10px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.form-details-desc div {
+    margin-bottom: 5px;
+}
+
+.form-subject {
+    color: var(--title-txt);
+    border-bottom: 1px solid var(--title-txt);
+}
+
+.form-em {
+    border-bottom: none;
+}

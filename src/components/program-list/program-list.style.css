@@ -1,0 +1,30 @@
+.program-box-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	gap: 20px;
+	/* Adjust the gap between grid items */
+	padding: 20px;
+	margin-bottom: 50px;
+}
+
+.program-box {
+	border: 1px solid #ccc;
+	padding: 16px;
+	border-radius: 8px;
+	background-color: #f9f9f9;
+}
+
+.add-program {
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 10px;
+	margin-left: 30px;
+	margin-right: 0;
+}
+
+.admin-options-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}

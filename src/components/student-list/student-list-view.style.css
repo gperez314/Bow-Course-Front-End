@@ -1,0 +1,27 @@
+.student-name {
+	color: var(--title-txt);
+	border-bottom: 1px solid var(--title-txt);
+}
+
+.student-box-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	gap: 20px;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+
+.student-box {
+	border: 1px solid #ccc;
+	padding: 16px;
+	border-radius: 8px;
+	background-color: #f9f9f9;
+}
+
+.student-options-box {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	height: auto;
+	flex-wrap: wrap;
+}
