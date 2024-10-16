@@ -50,7 +50,7 @@ const Message = ({ student }) => {
           id="message"
           rows="8"
           value={message}
-          placeholder="Type your here"
+          placeholder="Type your message here"
           onChange={(e) => setMessage(e.target.value)}
           required
         />
